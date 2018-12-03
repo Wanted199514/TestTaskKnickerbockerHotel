@@ -55,7 +55,6 @@ public class RoomTest extends BaseTest {
     public void checkSumGuests() {
         roomPage.chooseNumberOfGuestsAndChildren();
         Assert.assertEquals(roomPage.messageSumGuests(),"5","Sum guests is not correct.");
-        Assert.assertEquals(roomPage.messageSumRooms(),"1 Номер","Sum rooms is not correct.");
     }
 
     @Test
@@ -65,7 +64,7 @@ public class RoomTest extends BaseTest {
     }
 
     @Test
-    public void checkTabRoomOpened() throws InterruptedException {
+    public void checkRoomsTabOpened() throws InterruptedException {
         roomPage.chooseDatesAndNumberOfGuests();
         RoomsTabPage roomsTabPage = roomPage.clickGetPricesButton();
         Assert.assertTrue(roomsTabPage.roomsTabIsLoaded(),"Rooms tab is not loaded.");
