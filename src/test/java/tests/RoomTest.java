@@ -64,14 +64,14 @@ public class RoomTest extends BaseTest {
     }
 
     @Test
-    public void checkRoomsTabOpened() throws InterruptedException {
+    public void checkRoomsTabOpened() {
         roomPage.chooseDatesAndNumberOfGuests();
         RoomsTabPage roomsTabPage = roomPage.clickGetPricesButton();
         Assert.assertTrue(roomsTabPage.roomsTabIsLoaded(),"Rooms tab is not loaded.");
     }
 
     @Test
-    public void checkCheckInDayInGetNewRoomPage() throws InterruptedException, IOException {
+    public void checkCheckInDayInGetNewRoomPage() throws IOException {
         roomPage.chooseDatesAndNumberOfGuests();
         RoomsTabPage roomsTabPage = roomPage.clickGetPricesButton();
         roomsTabPage.changeTab();
@@ -82,7 +82,7 @@ public class RoomTest extends BaseTest {
     }
 
     @Test
-    public void checkCheckOutDayInGetNewRoomPage() throws InterruptedException, IOException {
+    public void checkCheckOutDayInGetNewRoomPage() throws IOException {
         roomPage.chooseDatesAndNumberOfGuests();
         RoomsTabPage roomsTabPage = roomPage.clickGetPricesButton();
         roomsTabPage.changeTab();
@@ -93,7 +93,7 @@ public class RoomTest extends BaseTest {
     }
 
     @Test
-    public void checkCheckInMonthAndYearInGetNewRoomPage() throws InterruptedException, IOException {
+    public void checkCheckInMonthAndYearInGetNewRoomPage() throws IOException {
         roomPage.chooseDatesAndNumberOfGuests();
         RoomsTabPage roomsTabPage = roomPage.clickGetPricesButton();
         roomsTabPage.changeTab();
@@ -104,7 +104,7 @@ public class RoomTest extends BaseTest {
     }
 
     @Test
-    public void checkCheckOutMonthAndYearInGetNewRoomPage() throws InterruptedException, IOException {
+    public void checkCheckOutMonthAndYearInGetNewRoomPage() throws IOException {
         roomPage.chooseDatesAndNumberOfGuests();
         RoomsTabPage roomsTabPage = roomPage.clickGetPricesButton();
         roomsTabPage.changeTab();
@@ -115,7 +115,7 @@ public class RoomTest extends BaseTest {
     }
 
     @Test
-    public void checkSumGuestsInGetNewRoomPage() throws InterruptedException, IOException {
+    public void checkSumGuestsInGetNewRoomPage() throws IOException {
         roomPage.chooseDatesAndNumberOfGuests();
         RoomsTabPage roomsTabPage = roomPage.clickGetPricesButton();
         roomsTabPage.changeTab();
