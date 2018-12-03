@@ -3,8 +3,11 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
 
 import java.io.IOException;
+
+import static java.lang.Thread.sleep;
 
 public class RoomPage extends BasePage {
 
@@ -214,5 +217,17 @@ public class RoomPage extends BasePage {
         waitUntilElementIsClickable(getPricesButton);
         getPricesButton.click();
         return new RoomsTabPage(webDriver);
+    }
+
+    /**
+     * Choose dates
+     * Wait 0.5 seconds
+     * Choose number of guests and children
+     * @throws InterruptedException - important part of sleep
+     */
+    public void chooseDatesAndNumberOfGuests() throws InterruptedException {
+        chooseDates();
+        sleep(500);
+        chooseNumberOfGuestsAndChildren();
     }
 }
