@@ -2,10 +2,10 @@
 
 Tools installation:
 1. chromedriver;
-2. Google Chrome 70.0.3538.110 version installed (latest);
+2. Google Chrome 87.0.4280.141 version installed (latest);
 3. JDK 11.0.1;
 4. Intellij IDEA 'Community' version;
-5. Selenium Java » 3.141.5;
+5. Selenium Java » 3.141.59;
 6. Git
 7. TestNG
 
@@ -24,7 +24,7 @@ Tools setup:
     3) Copy archive content;
     4) Paste archive content in C:\Windows\System32
 5. Selenium is a tool for automating web browser actions.
-   How to install 'Selenium Java » 3.141.5':
+   How to install 'Selenium Java » 3.141.59':
     1) Go to https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java/3.141.5;
     2) Copy Maven text;
     3) Open pom.xml in Intellij IDEA;
@@ -54,8 +54,8 @@ Tools setup:
    How to install 'IntelliJ IDEA':
     1) Go to https://www.jetbrains.com/idea/download/#section=windows;
     2) Click 'Download' for Community version;
-    3) Download 'ideaIC-2018.2.4.exe';
-    4) Run 'ideaIC-2018.2.4.exe';
+    3) Download 'ideaIC-2020.1.2.exe';
+    4) Run 'ideaIC-2020.1.2.exe';
     5) Install 'IntelliJ IDEA'.
 9. Google chrome (or simply Chrome) is a freeware web browser developed by Google LLC.
    How to install 'Google Chrome':
@@ -66,9 +66,7 @@ Tools setup:
     5) Install 'Google Chrome'.
 10. TestNG - a testing framework for the JVM.
     How to install 'TestNG':
-    1) Go to https://mvnrepository.com/artifact/org.testng/testng/6.14.3;
+    1) Go to https://mvnrepository.com/artifact/org.testng/testng/7.1.0;
     2) Copy Maven text;
     3) Open pom.xml in Intellij IDEA;
     4) In pom.xml before '</dependencies\>' paste Maven text.
-11. If you want to look on screenshots.
-    1) Go to TestTaskKnickerbockerHotel\testOutput\screenshot
