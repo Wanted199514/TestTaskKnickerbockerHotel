@@ -25,7 +25,7 @@ Tools setup:
     4) Paste archive content in C:\Windows\System32
 5. Selenium is a tool for automating web browser actions.
    How to install 'Selenium Java » 3.141.59':
-    1) Go to https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java/3.141.5;
+    1) Go to https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java/3.141.59;
     2) Copy Maven text;
     3) Open pom.xml in Intellij IDEA;
     4) In pom.xml before '</project\>' write '<dependencies\>';
@@ -48,7 +48,7 @@ Tools setup:
     2) Click 'Accept License Agreement';
     3) Click 'jdk-11.0.1_windows-x64_bin.exe';
     4) Download 'jdk-11.0.1_windows-x64_bin.exe';
-    5) Before download click 'jdk-10.0.2_windows-x64_bin.exe'
+    5) Before download click 'jdk-11.0.1_windows-x64_bin.exe'
     6) Install 'jdk-11.0.1_windows-x64_bin.exe'.
 8. IntelliJ IDEA is a Java integrated development environment (IDE) for developing computer software.
    How to install 'IntelliJ IDEA':
